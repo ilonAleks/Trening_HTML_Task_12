@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Задача 12 www.itmathrepetitor.ru</title>
+</head>
+
+<!--
+Задача 12. "Карта сокровищ"
+
+Условие: Создайте html-файл, результат которого показан на рисунке. 
+Для этого добавьте изображение, которое можно скачать здесь. 
+Далее укажите на изображении ссылочные области: клад, акула, осьминог, корабль. 
+При наведении курсора на ссылочную область должна появляться подсказка. 
+Используйте тег <progress> для элемента под изображением, 
+наглядно показывающем какая часть пути до клада пройдена.
+
+Task 12. "Treasure Map"
+
+Condition: Create an html file, the result of which is shown in the figure.
+To do this, add an image that can be downloaded here.
+Next, indicate reference areas on the image: treasure, shark, octopus, ship.
+When hovering over the referenced area, a tooltip should appear.
+Use the <progress> tag on the element below the image,
+clearly showing what part of the path to the treasure has been covered.
+-->
+
+<!--Tegs&simbols:
+<progress>	Индикатор выполнения задачи любого рода.
+https://www.image-map.net/	сайт для определия координат
+-->
+
+<body>
+<h3>Карта сокровищ</h3>
+
+<hr color="darkgrey"></hr>
+
+<p>
+<img src="https://img-fotki.yandex.ru/get/15589/136164467.4/0_f44f5_6c0fdf57_orig.jpg" 
+usemap="#img-map">
+
+<map name="img-map">
+<area href="" alt="Клад" title="Клад" href="" coords="208,136,301,63" shape="rect">
+<area href="" alt="Акула" title="Акула" href="" coords="378,84,471,11" shape="rect">
+<area href="" alt="Осьминог" title="Осьминог" href="" coords="32,287,125,214" shape="rect">
+<area href="" alt="Корабль" title="Корабль" href="" coords="191,292,283,204" shape="rect">
+</map>
+
+<BR>
+Пройдено:
+<progress max="100"
+value="60"></progress
+
+</p>
+<hr color="darkgrey"></hr>
+
+<cite >
+www.itmathrepetitor.ru
+</cite>
+</br></br>
+IlonAleks 05/18/2022</p>
+</body>
+</html>
+
+<!--IlonAleks 05/18/2022-->
+
